@@ -1,0 +1,165 @@
+body{
+    /* padding: 20px; */
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 20% 40px 20%;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+a, .h1-1, .p-1, .cta-button-1 {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+.h1-1 {
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.p-1 {
+    padding-right: 20%;
+    font-size: 18px;
+    color: #e5e5e5;
+}
+
+.logo, h1 {
+    font-weight: bold;
+    font-weight: 900;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.cta-1{
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+.body-section-1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.body-subsection-1 {
+    display: flex;
+    margin: 60px 20% 40px 20%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500;
+}
+
+.image-1 {
+    max-width: 100px;
+}
+
+.section-1-image {
+    flex: 1;
+    max-height: 400px;
+}
+
+.body-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin-bottom: 60px;
+}
+
+.body-section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    align-content: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 40px 20% 40px 20%;
+}
+
+.content-holder {
+    display: flex;
+    gap: 24px;
+    max-width: 1000px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.headline-2 {
+    font-size: 36px;
+    font-weight: 'extra-bold';
+    padding: 20px 0;
+}
+
+.description-g-1 {
+    font-size: 18px;
+    color: #4c4e52;
+    text-align: center;
+}
+
+.testimonial-1 {
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    display: flex;
+}
+
+.testimonial-author-1 {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end
+}
+
+.section-4-container {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-section-4 {
+    background-color: #3882F6;
+    margin: 60px;
+    padding: 60px;
+}
+
+.footer {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.p-copyright {
+    color: #e5e5e5;
+    font-size: 18px;
+}
